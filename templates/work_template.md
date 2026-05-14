@@ -93,6 +93,14 @@ $$
 
 Any additional thoughts, observations, or things to remember...
 
+### Immediate Actions (This Week)
+
+| Action Items | Target Date | Status | Notes |
+|-----------|-------------|--------|-------|
+| Action Item 1 | YYYY-MM-DD | ✅ Complete | |
+| Action Item 2 | YYYY-MM-DD | ⚠️ In Progress | |
+| Action Item 3 | YYYY-MM-DD | ⏳ Upcoming | |
+
 ---
 
 **Entry completed**: YYYY-MM-DD HH:MM
