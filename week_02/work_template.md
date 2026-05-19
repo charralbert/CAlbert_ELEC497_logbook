@@ -19,7 +19,7 @@ What did you plan to accomplish in this session?
 
 ## Detailed Work Log
 
-### Session 1: Brainstorming (HH:MM - HH:MM)
+### Brainstorming
 
 **Description**: 
 What project possibilities exist with the UR5e and HRI? What gaps exist in HRI?
@@ -43,7 +43,23 @@ Description: During a game of charades, what part does delivery and reaction pla
 I consider the possibility of adding limited speech to the charade. 
 Scope: I would be measuring emotions like enjoyment, humor, and friendship. 
 
-## Results & Data
+### Research
+Below summarizes some of the important findings from reading papers and other literature reviews.
+
+**Existing Gaps**:
+Human Autonomy and Sense of Agency in Human-Robot Interaction: A Systematic Literature Review
+link: https://arxiv.org/pdf/2509.22271
+- Connection between sense of agency and human autonomy
+- Total understanding of attributes contributing to sense of agency and autonomy - employ METUX framework.
+
+
+*Definitions*:
+- METUX (Motivation, Engagement, and Thriving in User Experience) framework: is used to understand how technology impacts user experience and psychological needs. Five scales that measure need satisfaction and frustration across various spheres of technology experience: adoption, interface, task, behavior, and lift.
+- Intentional binding: a phenomenon where voluntary actions are perceived as producing sensory outcomes more quickly than actions that do not produce such outcomes. Associated with sense of agency, suggests individuals have a feeling of control over their actions and their outcomes.
+
+**Potential Questions From Identified Gaps**:
+- 
+
 
 ### Measurements/Observations
 
