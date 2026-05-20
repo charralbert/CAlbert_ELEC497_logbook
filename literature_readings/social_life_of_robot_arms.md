@@ -14,15 +14,32 @@ citation: @misc{elhelou2025sociallifeindustrialarms,
 Explores how human perceptions of non-anthropomorphic robot manipulator can be shaped by arousal (movement energy, expressiveness) and attention (capacity to selectively orient and engage with a user). Combines gaze-like attention engine with arousal-modulated motion layer to explore how expressive and interactive behaviors influence social perception. Found that high attention = warmer and competent, high arousal (fast and energetic) = discomfort and disturbance.
 
 ## System Design
-![System Design](files\TIC\TIC_system_design.png)
+<p align="center">
+  <img src="files\TIC\TIC_system_design.png" width="1000" alt="System Design">
+  <br>
+  <em>Figure 1: System Design</em>
+</p>
 Attention Engine:
 Directs robots attention to salient features in its visual environment (within range of Intel RealSense D435 Depth Camera). Computes attention score for each individual, determining saliency and guiding robot’s gaze to enable dynamic responsive interactions.
 Φ = wpP + wvV + Θ(t)
 Where P is proximity and hand position, V is torso and hand motion, and Θ(t) is habituation which changes based on gaze history to maintain naturalistic attention shifts.
-![Proximity Equation](files\TIC\TIC_proximity_eqn.png)
-![Torso and Hand Motion Equation](files\TIC\TIC_torso_and_hand_motion.png)
+<p align="center">
+  <img src="files\TIC\TIC_proximity_eqn.png" width="1000" alt="Proximity Equation">
+  <br>
+  <em>Figure 2: Proximity Equation</em>
+</p>
+
+<p align="center">
+  <img src="files\TIC\TIC_torso_and_hand_motion.png" width="1000" alt="Torso and Hand Motion Equation">
+  <br>
+  <em>Figure 3: Torso and Hand Motion Equation</em>
+</p>
 Habituation, Θ(t), avoids sustained attention on a single user. γ = 1 for currently attended individual and 0 for others, m hab controls the negative decay rate and m rest the positive recovery rate.
-![Habituation Equation](files\TIC\TIC_habituation_eqn.png)
+<p align="center">
+  <img src="files\TIC\TIC_habituation_eqn.png" width="1000" alt="Habituation Equation">
+  <br>
+  <em>Figure 4: Habituation Equation</em>
+</p>
 Robotic Gaze Algorithm:
 Maps 3D target positions to joint-space postures, allowing robot to orient toward salient individuals. Arousal modulates posture and motions dynamics: low is subdued and high increases speed and reach. Sinusoidal oscillation is applied to simulate breathing. 
 Attentional Drift Module: 
