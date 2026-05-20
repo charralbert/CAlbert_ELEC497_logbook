@@ -1,0 +1,1 @@
+When I read a paper, I need to be interacting with the material so that I am fully understanding and present in what I am reading. As a result, I write these during my readings and thus I am not paraphrasing... I am usually directly quoting from the paper or definitions I looked up. I give all citations at the top of the markdown files for each of the respective articles.
