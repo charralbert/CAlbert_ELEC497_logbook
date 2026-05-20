@@ -22,7 +22,7 @@ Show: Persona – elderly man reading a book, he has difficulty hearing and his 
 
 ## Architecture
 <p align="center">
-  <img src="files/literature_images/gaze_architecture.png" width="1000" alt="Architecture">
+  <img src="../files/literature_images/gaze_architecture.png" width="1000" alt="Architecture">
   <br>
   <em>Figure 1: Architecture.</em>
 </p>
@@ -31,14 +31,14 @@ Three components: attention engine, behavior selection, and behavior library. At
 ### Attention Engine:
 The attention engine generates a ‘curiosity score’ assigned to the person indicating their salience/significance as well as how important it is for the robot character to respond to them.
 <p align="center">
-  <img src="files/literature_images/gaze_curiousity_eqn.png" width="1000" alt="Curiousity Equation">
+  <img src="../files/literature_images/gaze_curiousity_eqn.png" width="1000" alt="Curiousity Equation">
   <br>
   <em>Figure 2: Curiousity Equation.</em>
 </p>
 Θ is 0 or 1 and is a habituation factor, ϕ is curiosity, w is weighting, h indicates whether hands are raised above the shoulder. Can be tuned and expanded for character development (colors, sounds, etc...). The above function was created based on how people tend to attract others’ attention.
 Also receives feedback from the behavior selection engine on which persons of interest have been attended to. If in gaze, the robot's curiosity about the figure decreases linearly. Habituation function limits the character from repeatedly responding to the same guest. Includes a mechanism to restore curiosity for a person after a period of time.
 <p align="center">
-  <img src="files/literature_images/gaze_habituation_eqn.png" width="1000" alt="Architecture">
+  <img src="../files/literature_images/gaze_habituation_eqn.png" width="1000" alt="Architecture">
   <br>
   <em>Figure 3: Habituation Equation.</em>
 </p>
