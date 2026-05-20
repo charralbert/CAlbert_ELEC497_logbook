@@ -15,7 +15,7 @@ Explores how human perceptions of non-anthropomorphic robot manipulator can be s
 
 ## System Design
 <p align="center">
-  <img src="files\TIC\TIC_system_design.png" width="1000" alt="System Design">
+  <img src="files/TIC/TIC_system_design.png" width="1000" alt="System Design">
   <br>
   <em>Figure 1: System Design</em>
 </p>
@@ -24,19 +24,19 @@ Directs robots attention to salient features in its visual environment (within r
 Φ = wpP + wvV + Θ(t)
 Where P is proximity and hand position, V is torso and hand motion, and Θ(t) is habituation which changes based on gaze history to maintain naturalistic attention shifts.
 <p align="center">
-  <img src="files\TIC\TIC_proximity_eqn.png" width="1000" alt="Proximity Equation">
+  <img src="files/TIC/TIC_proximity_eqn.png" width="1000" alt="Proximity Equation">
   <br>
   <em>Figure 2: Proximity Equation</em>
 </p>
 
 <p align="center">
-  <img src="files\TIC\TIC_torso_and_hand_motion.png" width="1000" alt="Torso and Hand Motion Equation">
+  <img src="files/TIC/TIC_torso_and_hand_motion.png" width="1000" alt="Torso and Hand Motion Equation">
   <br>
   <em>Figure 3: Torso and Hand Motion Equation</em>
 </p>
 Habituation, Θ(t), avoids sustained attention on a single user. γ = 1 for currently attended individual and 0 for others, m hab controls the negative decay rate and m rest the positive recovery rate.
 <p align="center">
-  <img src="files\TIC\TIC_habituation_eqn.png" width="1000" alt="Habituation Equation">
+  <img src="files/TIC/TIC_habituation_eqn.png" width="1000" alt="Habituation Equation">
   <br>
   <em>Figure 4: Habituation Equation</em>
 </p>
