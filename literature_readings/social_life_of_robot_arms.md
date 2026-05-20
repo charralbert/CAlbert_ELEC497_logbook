@@ -15,7 +15,7 @@ Explores how human perceptions of non-anthropomorphic robot manipulator can be s
 
 ## System Design
 <p align="center">
-  <img src="files/TIC/TIC_system_design.png" width="1000" alt="System Design">
+  <img src="../files/TIC/TIC_system_design.png" width="1000" alt="System Design">
   <br>
   <em>Figure 1: System Design</em>
 </p>
