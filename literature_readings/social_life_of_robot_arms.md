@@ -36,7 +36,7 @@ Where P is proximity and hand position, V is torso and hand motion, and Θ(t) is
 </p>
 Habituation, Θ(t), avoids sustained attention on a single user. γ = 1 for currently attended individual and 0 for others, m hab controls the negative decay rate and m rest the positive recovery rate.
 <p align="center">
-  <img src="../files/TIC/TIC_habituation_eqn.png" width="1000" alt="Habituation Equation">
+  <img src="../files/TIC/TIC_habituation_eqn.png" width="500" alt="Habituation Equation">
   <br>
   <em>Figure 4: Habituation Equation</em>
 </p>
