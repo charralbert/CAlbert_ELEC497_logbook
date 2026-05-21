@@ -1,27 +1,21 @@
 ---
-title: "[Descriptive Title of Your Meeting]"
-date: YYYY-MM-DD
-week: X
-contributor: [Name]
+title: "Agency and Robotics - Project Decision"
+date: 2026-05-21
+week: 2
+contributor: [Charlotte]
 ---
-
-# Meeting Minutes Template
-
-> **Instructions**: Use this template to document team meetings, planning sessions, design reviews, or status updates. Save as: `logbook/week-XX/YYYY-MM-DD_meeting-[topic].md`
 
 ## Meeting Information
 
-**Time:** HH:MM – HH:MM  
-**Duration:** X.X hours  
-**Location:** [Physical location / Zoom / Discord / etc.]  
-**Meeting Type:** [Team Sync / Design Review / Sprint Planning / Retrospective / Status Update]
+**Time:** 12:00 – 12:30  
+**Duration:** 0.5 hours  
+**Location:** [Ingenuity Labs]  
+**Meeting Type:** [Status Update / Project Planning]
 
 ### Attendees
 
-- ✅ [Name 1] - [Role]
-- ✅ [Name 2] - [Role]
-- ✅ [Name 3] - [Role]
-- ❌ [Name 4] - [Role] (Absent)
+- ✅ [Charlotte Albert] - [Student-Researcher]
+- ✅ [Matthew Pan] - [Supervisor]
 
 ---
 
@@ -47,6 +41,18 @@ contributor: [Name]
 ---
 
 ### 2. [Discussion Topic 1]
+
+trust and motion - explored - but if its novel, not really trustworthy. stage behavior ?
+initially slow - think spider (its more scared of you) 
+- how does trust evolve? is there a way to develop trust quickly? shortcutting trust?
+- collaboration could be interesting
+- highly interactive - avoid gpus and vlms
+use rgb camera to analyze how a person is moving - develop a dance that mimics the property, laban concepts, development goal: can we develop a system that mimics the kinematic properties of a person: accurately get representative 
+- make the robot a curious agent - like a puppy, act autonomously and expressive, how do we introduce character development? on autonomy and agency - agent or tool?
+
+need kinematic profiles, need state machine, 
+
+look u
 
 **Context:**  
 Brief background or reason for this discussion item.

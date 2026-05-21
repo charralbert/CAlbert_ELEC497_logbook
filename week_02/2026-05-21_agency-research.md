@@ -42,6 +42,7 @@ How does movement of a robot effect trust, empathy, perceived autonomy, perceive
 Pros:
 - Likely feasible within the timeline
 - Incorporate artistic movements
+- Easiest
 Cons:
 - Similar to Roy's study
 - There's a paper that is veryyyyy similar. It mostly focuses on mechanical versus smooth.
@@ -64,7 +65,6 @@ Can a robot mimic, but not copy, dance motion? Do humans feel more connected to 
 
 Pros:
 - Incorporate artistic movements
-- Likely feasible
 Cons:
 - Relatively studied 
 
