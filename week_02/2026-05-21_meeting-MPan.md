@@ -52,7 +52,7 @@ use rgb camera to analyze how a person is moving - develop a dance that mimics t
 
 need kinematic profiles, need state machine, 
 
-look u
+run emotional intent and focus on how to work ur5e!
 
 **Context:**  
 Brief background or reason for this discussion item.
