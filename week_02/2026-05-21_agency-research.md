@@ -1,21 +1,13 @@
 ---
-title: "[Descriptive Title of Your Work]"
-date: YYYY-MM-DD
-week: X
-contributors: [Name1, Name2, Name3]
+title: "Agency Research"
+date: 2026-05-21
+week: 2
+contributors: [Charlotte]
 ---
-
-# Daily Logbook Entry Template
-
-> **Instructions**: This is an example of a logbook template that describes work done on your project in a systematic manner. Copy this template to create your daily entries. Save as: `logbook/week-XX/YYYY-MM-DD_brief-description.md`
 
 ## Objectives
 
-What did you plan to accomplish in this session?
-
-- 
--
--
+Identify questions and areas within robotics and agency for project.
 
 ## Research Ideas within Agency
 
@@ -55,6 +47,18 @@ Cons:
 - There's a paper that is veryyyyy similar. It mostly focuses on mechanical versus smooth.
 https://pmc.ncbi.nlm.nih.gov/articles/PMC9763088/
 
+**Task Completion**: Human Agency (and autonomy?) (could add robot agency to this)
+At what point of a robot helper does a human's agency become affected? Is this related to a feeling of negative emotion? 
+Possible tasks:
+- lego building
+- puzzle making
+- trivia game 
+
+Pros:
+- Human agency and autonomy and relationship is relatively underdeveloped research area
+Cons:
+- Safety considerations (robot would need to be very close to user and if its an agent would have to make sure movement would not injure human)
+
 **Human-Robot Improv**: Robot Agency 
 Can a robot mimic, but not copy, dance motion? Do humans feel more connected to the robot? What counts as improvisation? Can nonhuman motion still feel expressive? Does imperfect or hestitant movement make a robot arm seem more intention or socially alive during dance improvisation?
 
@@ -75,13 +79,7 @@ Cons:
 
 A note: long term robot interaction is "relatively" unexplored (definitely not as popular as short one lab studies)
 Pros with any dance focus is that it can overlap with the brain movement work that Kaitlyn is doing.
-
-**Task Completion**: Human Agency (could add robot agency to this)
-At what point of a robot helper does a human's agency become affected? Is this related to a feeling of negative emotion? 
-Possible tasks:
-- lego building
-- puzzle making
-- trivia game 
+Cons with dance focus is finding training data for the robot arm.
 
 **Process/Steps**:
 1.
