@@ -49,90 +49,20 @@ It also reads from scores.db (attention scores) and shared_data.db (robot joint 
 **ur_server.py**
 Owns the UR5e; starts realtime servoj, listens on TCP port 50002, turns pickled commands into movej, set_realtime_pose, servoj, and continuously mirrors joint angles into shared_data.db for headtracking client
 
-## Detailed Work Log
-
-### Session 1: [Activity Name] (HH:MM - HH:MM)
-
-**Members Present**: [Name1, Name2, Name3]
-
-**Description**: 
-Describe what you worked on in detail...
-
-**Materials/Tools Used**:
--
--
-
-**Process/Steps**:
-1.
-2.
-3.
-
-**Documentation**:
-<!-- Add images, diagrams, screenshots from the images/ folder -->
-<!-- Store your images in: images/week-XX/ directory -->
-
-*Figure 1: Brief description of what the image shows and its relevance to your work*
-
-## Results & Data
-
-### Measurements/Observations
-
-| Parameter | Expected | Measured | Pass/Fail | Notes |
-|-----------|----------|----------|-----------|-------|
-| | | | | |
-
-### Code Snippets
-
-```python
-# Add relevant code here
-```
-
-### Calculations
-
-Show your mathematical work:
-
-$$
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
-
-## Challenges & Solutions
-
-### Challenge 1: [Issue Description]
-
-**Problem**: 
-
-**Debugging Steps**:
-1.
-2.
-3.
-
-**Solution**: 
-
-**Lessons Learned**: 
-
 ## Next Steps
+I think I'm going to try and run emotional intent tomorrow... And then after attempt my own script?
 
-- [ ] Task 1
-- [ ] Task 2
-- [ ] Task 3
-
-## References
-
-- [Reference 1](URL)
-- [Reference 2](URL)
-
-## Personal Notes
-
-Any additional thoughts, observations, or things to remember...
+- [ ] Run emotional intent
+- [ ] ChUR5ette script (mixture of Charlotte and UR5e...)
 
 ### Immediate Actions (This Week)
 
 | Action Items | Target Date | Status | Notes |
-|-----------|-------------|--------|-------|
-| Action Item 1 | YYYY-MM-DD | ✅ Complete | |
-| Action Item 2 | YYYY-MM-DD | ⚠️ In Progress | |
-| Action Item 3 | YYYY-MM-DD | ⏳ Upcoming | |
+|--------------|-------------|--------|-------|
+| Read through UR5e docs | 2026-05-22 | ✅ Complete | |
+| Understand emotional intent | 2026-05-26 | ✅ Complete | |
+| Read through 6-7 RMaC | 2026-05-25 | ⚠️ In Progress | I am almost done.. but reading through a textbook is making me tweak... I am not a physics goat |
+| Create own script to perform basic movements | 2026-06-02 | ⏳ Upcoming | |
+| Run emotional intent | 2026-06-03 | ⏳ Upcoming | I want it done by the 3rd bc thats when Mpan comes back, but goal would be tomorrow tbh that would be fire. |
 
----
-
-**Entry completed**: YYYY-MM-DD HH:MM
+**Entry completed**: 2026-05-26 4:30
