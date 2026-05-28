@@ -5,13 +5,12 @@ week: 3
 contributors: [Charlotte]
 ---
 
+# DAY 1: 05-27
 ## Objectives
 
 Figure out how to run this guy
 
 - Camera to world, measurements and all that...
--
--
 
 ## The Camera
 
@@ -30,8 +29,9 @@ I set up the tripod to be adjacent to around where I believe Roy set up his moun
 | z offset  |  0.145 - 0.012 = 0.133 | |
 | base height | 0.012m | |
 
-### Code Snippets
+### Code Changes
 
+**d435_static_broadcaster.py**
 Roy's original translation
 ```python
 translation = geometry_msgs.msg.Vector3(x=0.173, y=-0.332, z=0.075)
@@ -40,6 +40,28 @@ translation = geometry_msgs.msg.Vector3(x=0.173, y=-0.332, z=0.075)
 New estimated translation
 ```python
 translation = geometry_msgs.msg.Vector3(x=0.375, y=-0.335, z=0.133)
+```
+
+**attention_scores.py**
+Original:
+```python
+ENABLE_VIRTUAL_OBJECTS = True
+```
+
+New:
+```python
+ENABLE_VIRTUAL_OBJECTS = False
+```
+
+**new_head_tracking.py**
+Original:
+```python
+AROUSAL = 1
+```
+
+New:
+```python
+AROUSAL = 10
 ```
 
 ### Calculations
@@ -91,7 +113,7 @@ From this, the code begins, and there are no errors. However, after setting ENAB
 
 ### Mini Challenge: [Which scripts to use!]
 
-This is more of a note... and less of a challenge... but the code on the MItHRIL GitLab and the Linux Machine are different. I am unsure which is the newer script as I don't really wanna change anything to his code..? And don't think I should have to? My guess is the GitLab one is newer... but I slacked him to ask. I am really hoping the GitLab one is newer because then I feel like it would be more straightforward to fix.
+This is more of a note... and less of a challenge... but the code on the MItHRIL GitLab and the Linux Machine are different. I am unsure which is the newer script as I don't really wanna change anything to his code..? And don't think I should have to because it worked before...
 
 There are comments in Korean on the Linux machine. I unfortunately do not speak Korean.
 
@@ -111,28 +133,40 @@ A view of the camera appears, the camera quality is superr bad, but after clicki
 free(): invalid pointer
 [ros2run]: Aborted
 
-2.
-3.
+# DAY 2: 05-28
 
-**Solution**: 
+## Running the code from GitLab
 
-**Lessons Learned**: 
+**Description**
+I have cloned the repository from GitLab onto the linux machine. The code from GitLab is older... So maybe I can incorporate my own fixes into it and feel less bad about it. First I will try running it straight up.
+
+### Code Changes
+
+I had to solve some paths in CMake like Nuitrack.h, etc...
+
+### Emotional Intent code run
+```python
+cd emotional-intent-main_from-gitlab
+colcon build --packages-select new_skeleton_pubsub nuitrack_skeleton
+
+# Confirm scripts are installed
+ls install/new_skeleton_pubsub/lib/new_skeleton_pubsub/
+
+source install/setup.bash
+
+ros2 launch new_skeleton_pubsub multi_node_launch.py mode:=2
+```
+
+### Test camera and nuitrack run
+
+```python
+# Default init
+ros2 run new_skeleton_pubsub nuitrack_gl_sample
+# Or with a Nuitrack config file
+ros2 run new_skeleton_pubsub nuitrack_gl_sample /path/to/nuitrack.config
+```
 
 
-## Next Steps
-
-- [ ] Task 1
-- [ ] Task 2
-- [ ] Task 3
-
-## References
-
-- [Reference 1](URL)
-- [Reference 2](URL)
-
-## Personal Notes
-
-Any additional thoughts, observations, or things to remember...
 
 ### Immediate Actions (This Week)
 
