@@ -194,14 +194,15 @@ I sent in a ticket to 3DiVi because I am actually lost at this point. The Nuitra
 
 Same dumb ahh error bro I'm tweaking out.
 
+I'll probably just try and do it from my laptop I think. Maybe the Linux machine is evil.
+
 ### Immediate Actions (This Week)
 
 | Action Items | Target Date | Status | Notes |
 |-----------|-------------|--------|-------|
-| Action Item 1 | YYYY-MM-DD | ✅ Complete | |
-| Action Item 2 | YYYY-MM-DD | ⚠️ In Progress | |
-| Action Item 3 | YYYY-MM-DD | ⏳ Upcoming | |
+| Fail really bad at debugging | 2026-05-29 | ✅ Complete | |
+| Try it on my laptop instead | 2026-06-01 | ⚠️ In Progress | |
 
 ---
 
-**Entry completed**: YYYY-MM-DD HH:MM
+**Entry completed**: 2026-05-29 2:48
