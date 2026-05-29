@@ -166,7 +166,33 @@ ros2 run new_skeleton_pubsub nuitrack_gl_sample
 ros2 run new_skeleton_pubsub nuitrack_gl_sample /path/to/nuitrack.config
 ```
 
+## The main Challenge
 
+My enemy:
+```python
+free(): invalid pointer
+```
+
+### Next steps 
+Reinstall Nuitrack?
+
+# DAY 3: 05-29
+
+**Description**
+Hoping for a win today
+
+## Nuitrack Subscription
+Maybe the main culprit of it all is the fact that I am not logged into our Nuitrack subscription...
+
+I asked my goat (Prof Pan) for the login. We will now continue our journey from here.
+
+## I hate this bug
+
+I hate it
+
+I sent in a ticket to 3DiVi because I am actually lost at this point. The Nuitrack app works with skeleton tracking but it does not work on Roy's script or the example script from Nuitrack.
+
+Same dumb ahh error bro I'm tweaking out.
 
 ### Immediate Actions (This Week)
 
