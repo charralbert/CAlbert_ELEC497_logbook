@@ -17,8 +17,6 @@ Make my own script to run Nuitrack
 
 ### Basically just copying console example 
 
-**Members Present**: [Name1, Name2, Name3]
-
 **Description**: 
 Modules in Nuitrack:
 - ColorSensor:  It contains functions for configuring the module and retrieving the results of its work, along with the helper functions for interpreting the color values.
@@ -37,19 +35,14 @@ The purpose of the Nuitrack Hand Tracker module is to track user hands and to in
 
 - GestureRecognizer: used to assess the state of user activity, detect gestures, and evaluate the state of these gestures. The state of the gesture is expressed as a numerical value equal to the progress of completion of the gesture as a percentage. There are 6 possible types of gestures: waving, swipe left, swipe right, swipe up, swipe down and push
 
-
-**Materials/Tools Used**:
--
--
-
 **Process/Steps**:
-1.
-2.
-3.
+1. made cpp file called "right hand tracking
+2. Make your Cmake to have NUITRACK_SDK path, include DetectPlatform.cmake, include directories like Nuitrack/include and include/middlewhere
+3. link_directories(${NUITRACK_SDK}/Nuitrack/lib/${PLATFORM_DIR}) - “When building right_hand_tracking, look in the SDK’s Nuitrack/lib/win64 folder for nuitrack.lib.”
+4. executables and such... I am not a cmake goat. its all on github tho in the readme under right_hand_tracking for my repo
 
-**Documentation**:
-<!-- Add images, diagrams, screenshots from the images/ folder -->
-<!-- Store your images in: images/week-XX/ directory -->
+**Defintions**:
+- underscores (_) before a variable indicate that is a member variable.
 
 *Figure 1: Brief description of what the image shows and its relevance to your work*
 
