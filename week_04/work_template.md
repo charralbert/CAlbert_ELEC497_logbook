@@ -41,8 +41,52 @@ The purpose of the Nuitrack Hand Tracker module is to track user hands and to in
 3. link_directories(${NUITRACK_SDK}/Nuitrack/lib/${PLATFORM_DIR}) - “When building right_hand_tracking, look in the SDK’s Nuitrack/lib/win64 folder for nuitrack.lib.”
 4. executables and such... I am not a cmake goat. its all on github tho in the readme under right_hand_tracking for my repo
 
-**Defintions**:
+**Defintions n Descriptions n Nuitrack n Stuff**:
 - underscores (_) before a variable indicate that is a member variable.
+
+- connectOnNewFrame explanation
+```python
+_depthSensor->connectOnNewFrame(std::bind(&NuitrackGLSample::onNewDepthFrame, this, std::placeholders::_1));
+```
+_depthSensor is the DepthSensor member. 
+The callback type is:
+```python
+typedef std::function<void (DepthFrame::Ptr)> OnNewFrame;
+```
+The function:
+```python
+	uint64_t connectOnNewFrame(const OnNewFrame& callback)
+	{
+		return _callbackStruct->addCallback(callback);
+	}
+```
+So Nuitrack wants:
+```python
+void something(DepthFrame::Ptr frame);
+```
+It stores it in an internal list and whenever a new depth frame exists, Nuitrack invokes every registered callback and passes a DepthFrame::ptr
+
+The handler, onNewDepthFrame, is a member function. Needs which object (this) and the argument (frame). So you can't write:
+```python
+_depthSensor->connectOnNewFrame(&NuitrackGLSample::onNewDepthFrame);
+```
+adapt the member function into plain callable that Nuitrack can invoke, use std::bind (from <functional>) which builds a new callable object that remembers which function to call, arguments are fixed now, arguments will be filled in later. std::bind stores the pointer (this) inside the wrapper and when Nuitrack calls the callback:
+```python
+(this->*onNewDepthFrame)(frame);
+```
+
+std::placeholders::_1 means the first argument passed when someone calls the wrapped function
+1. Nuitrack calls: wrapped(frame)
+2. frame lands in placeholder _1
+3. bind forwards it as the first argument to onNewDepthFrame
+
+Static callbacks don't need 'this':
+_userTracker->connectOnNewUser(&NuitrackGLSample::onNewUserCallback);
+
+- All types are under nuitrack-sdk-master/Nuitrack/include/nuitrack/types
+
+- Non-static: "Do something to THIS sample's window/texture/state"
+- Static: "Run this utility code that doesn't need a particular sample istance" cannot access class variables unless you pass 'this' via bind or use globals, authors are using static where the handler is just logging. 
 
 *Figure 1: Brief description of what the image shows and its relevance to your work*
 

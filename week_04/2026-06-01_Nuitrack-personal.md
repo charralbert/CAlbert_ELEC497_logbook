@@ -7,8 +7,6 @@ contributors: [Charlotte]
 
 ### Charlotte's 'puter runs nuitrack?
 
-**Members Present**: [Name1, Name2, Name3]
-
 **Things Learned**: 
 Sometimes I do things in engineering without really understanding what is happening, so I decided to write down some of the things that I should probably know.
 
