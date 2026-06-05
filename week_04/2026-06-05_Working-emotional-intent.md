@@ -114,47 +114,19 @@ mode 4: high arousal, high attention
 **TLDR;**
 stop calling getUserIssue<FrameBorderIssue>() in the GL sample code path, and stop calling Nuitrack::release() from a broken signal handler while tracking is still running.
 
-### Transformation changes
+## Question
+1. How do repeated interactions with a robot arm affect perception, trust, and seeing the robot as a character?
+- Does a UR5e become more "character-like" in participants' minds over time?
+- Does familiarity reduce fear but increase trust?
+- Does anthropomorphism increase, decrease, or stabilize with repeated exposure?
+- Do people start assigning personalities to a robot arm?
+- Does a perceived character emerge purely from movement patterns?
+- How trust evolves after repeated successful interactions.
+- Whether trust becomes overtrust.
+- Whether trust is affected more by reliability or by movement style.
+Compare conditions:
+- Neutral movements vs. movements designed to express personality.
 
-Because the camera is setup in a separate spot, I did make transformation changes in d435_static_broadcaster.py 
-
-### Calculations
-
-Show your mathematical work:
-
-$$
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
-
-## Challenges & Solutions
-
-### Challenge 1: [Issue Description]
-
-**Problem**: 
-
-**Debugging Steps**:
-1.
-2.
-3.
-
-**Solution**: 
-
-**Lessons Learned**: 
-
-## Next Steps
-
-- [ ] Task 1
-- [ ] Task 2
-- [ ] Task 3
-
-## References
-
-- [Reference 1](URL)
-- [Reference 2](URL)
-
-## Personal Notes
-
-Any additional thoughts, observations, or things to remember...
 
 ### Immediate Actions (This Week)
 
@@ -166,4 +138,4 @@ Any additional thoughts, observations, or things to remember...
 
 ---
 
-**Entry completed**: YYYY-MM-DD HH:MM
+**Entry completed**: 2026-06-05 2:00
