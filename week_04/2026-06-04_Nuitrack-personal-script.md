@@ -15,9 +15,9 @@ Make my own script to run Nuitrack
 
 ## Detailed Work Log
 
-### Basically just copying console example 
+### Basically just copying console example and gl sample
 
-**Description**: 
+**Defintions n Descriptions n Nuitrack n Stuff**:
 Modules in Nuitrack:
 - ColorSensor:  It contains functions for configuring the module and retrieving the results of its work, along with the helper functions for interpreting the color values.
 The Nuitrack Color Sensor module is used to obtain color maps from the sensor for each frame. The results of this module are used directly or indirectly in the work of other Nuitrack modules.
@@ -35,13 +35,6 @@ The purpose of the Nuitrack Hand Tracker module is to track user hands and to in
 
 - GestureRecognizer: used to assess the state of user activity, detect gestures, and evaluate the state of these gestures. The state of the gesture is expressed as a numerical value equal to the progress of completion of the gesture as a percentage. There are 6 possible types of gestures: waving, swipe left, swipe right, swipe up, swipe down and push
 
-**Process/Steps**:
-1. made cpp file called "right hand tracking
-2. Make your Cmake to have NUITRACK_SDK path, include DetectPlatform.cmake, include directories like Nuitrack/include and include/middlewhere
-3. link_directories(${NUITRACK_SDK}/Nuitrack/lib/${PLATFORM_DIR}) - “When building right_hand_tracking, look in the SDK’s Nuitrack/lib/win64 folder for nuitrack.lib.”
-4. executables and such... I am not a cmake goat. its all on github tho in the readme under right_hand_tracking for my repo
-
-**Defintions n Descriptions n Nuitrack n Stuff**:
 - underscores (_) before a variable indicate that is a member variable.
 
 - connectOnNewFrame explanation
@@ -88,68 +81,29 @@ _userTracker->connectOnNewUser(&NuitrackGLSample::onNewUserCallback);
 - Non-static: "Do something to THIS sample's window/texture/state"
 - Static: "Run this utility code that doesn't need a particular sample istance" cannot access class variables unless you pass 'this' via bind or use globals, authors are using static where the handler is just logging. 
 
-*Figure 1: Brief description of what the image shows and its relevance to your work*
+## I made Nuitrack work bro.
 
-## Results & Data
-
-### Measurements/Observations
-
-| Parameter | Expected | Measured | Pass/Fail | Notes |
-|-----------|----------|----------|-----------|-------|
-| | | | | |
-
-### Code Snippets
-
-```python
-# Add relevant code here
-```
-
-### Calculations
-
-Show your mathematical work:
-
-$$
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
-
-## Challenges & Solutions
-
-### Challenge 1: [Issue Description]
-
-**Problem**: 
-
-**Debugging Steps**:
-1.
-2.
-3.
-
-**Solution**: 
-
-**Lessons Learned**: 
+I made it work. I will explain everything in my next log so it's more organized.
 
 ## Next Steps
 
-- [ ] Task 1
-- [ ] Task 2
-- [ ] Task 3
+- [ ] Documentation
 
 ## References
 
 - [Nuitrack module docs n such](https://download.3divi.com/Nuitrack/doc/group__UserTracker__group__csharp.html)
-- [Reference 2](URL)
 
 ## Personal Notes
 
-Any additional thoughts, observations, or things to remember...
+YESSSSSSS
 
 ### Immediate Actions (This Week)
 
 | Action Items | Target Date | Status | Notes |
 |-----------|-------------|--------|-------|
-| Action Item 1 | YYYY-MM-DD | ✅ Complete | |
-| Action Item 2 | YYYY-MM-DD | ⚠️ In Progress | |
-| Action Item 3 | YYYY-MM-DD | ⏳ Upcoming | |
+| debug emotional intent | a while ago.... | ✅ Complete | |
+| document, create branch, create read me | 2026-06-05 | ⚠️ In Progress | |
 
 ---
 
-**Entry completed**: YYYY-MM-DD HH:MM
+**Entry completed**: 2026-06-04 5:00

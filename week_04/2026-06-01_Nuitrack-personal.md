@@ -20,7 +20,7 @@ An open-source OS based on Debian Linux distribution.
 1. Install a bunch of things... (Ros, Visual Studio, Nuitrack)
 2. Fix broken website path on Nuitrack github page (looked for freeglut on a website that didn't exist)
 3. I was able to run NuitrackGLSample.cpp!!!!!!! it was lowk chopped and bad but like it ran #yes
-4. I was not able to run anything with the camera through Roy's code because its made for linux environment and wsl hates usb connections so... ts no working
+4. I was not able to run anything with the camera through Roy's code because its made for linux environment and wsl hates usb connections so... ts not working
 
 **Pivoting**:
 I am going to make my own script to do what Nuitrack demo does basically. 
