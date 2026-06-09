@@ -1,8 +1,8 @@
 ---
-title: "[Descriptive Title of Your Work]"
-date: YYYY-MM-DD
-week: X
-contributors: [Name1, Name2, Name3]
+title: "Research Question"
+date: 2026-06-09
+week: 5
+contributors: [Charlotte]
 ---
 
 ## Referenced Articles
@@ -61,7 +61,7 @@ contributors: [Name1, Name2, Name3]
 - Slight oscillations to mimic breathing
 
 | Type | 1st meeting | 2nd meeting | 3rd meeting |
-|-----------|----------|----------|-----------|-------|
+|------|-------------|-------------|-----------|
 | Affiliative | casual posture and movement, holds eye contact, turns head to signal curiousity | casual posture, holds eye contact, slightly "bouyant/bouncy" to signal growing affection | casual posture, holds eye contact, playful movement |
 | Passive | casual posture, no eye contact, perhaps pretending to eat something | casual posture, slight eye contact on movement | casual posture, occasionally holds eye contact |
 | Aggressive | Erect posture, attentive eye contact, some quick lunging movements towards the person | 90 degree angle posture, sometimes goes up to erect if the user moves too quickly, eye contact | 90 degree angle posture, less aggressive movement, a slight nod on a person entering the frame (to exhibit respect) |
