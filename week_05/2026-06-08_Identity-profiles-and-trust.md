@@ -53,7 +53,9 @@ contributors: [Name1, Name2, Name3]
 - May remain nearby voluntarily
 - "I no longer feel the need to escape"
 
-### The evolution of trust, the UR5e and its identity types
+## High level application to UR5e
+
+### Initial Brainstorm
 
 **Universal behaviour**
 - Slight oscillations to mimic breathing
@@ -68,36 +70,58 @@ contributors: [Name1, Name2, Name3]
 **Notes**
 - Could be interesting to include an audible aspect... A unique soundboard for the creature with coos, chirps, growls, etc... Perhaps adjusting sounds from real animals to give a more digitalized tone (if that makes sense)
 
+### Stats
 
-**Members Present**: [Name1, Name2, Name3]
+All stats are on a scale of 1-10
 
-**Description**: 
-Describe what you worked on in detail...
+**Stat Table**
+| Stat | What is 1? | What is 10 | Notes |
+|-----------|----------|----------|----------|
+| Eye Contact | No eye contact | Eye contact held for the duration |
+| Speed | Slow | Fast |
+| Breathing | Heavy | None |
+| Interest | Angled away from user | Angled Toward user | 
 
-**Materials/Tools Used**:
--
--
+### Identity Profile Stat tables
 
-**Process/Steps**:
-1.
-2.
-3.
+Trust level of 1 indicates first meeting, trust level of 3 indicates full trust
+(this is assuming 3 meetings for each... might be ideal to do more)
 
-**Documentation**:
-<!-- Add images, diagrams, screenshots from the images/ folder -->
-<!-- Store your images in: images/week-XX/ directory -->
+**Passive**
+| Trust Level | Eye Contact | Speed | Breathing | Interest | Reaction on quick movement | Notes |
+|-------------|-------------|-------|-----------|----------|----------------------------|-------|
+|      1      |      0      |   3   |     4     |    5     |            None            |       |
+|      2      |      1      |   3   |     4     |    7     |            None            |       |
+|      3      |      2      |   3   |     4     |    9     |            None            |       |
 
-*Figure 1: Brief description of what the image shows and its relevance to your work*
+**Aggressive**
+| Trust Level | Eye Contact | Speed | Breathing | Interest | Reaction on quick movement | Notes |
+|-------------|-------------|-------|-----------|----------|----------------------------|-------|
+|      1      |      10     |   10  |     0     |    10    |            Lunge           | Constantly in a dominant stance |
+|      2      |      9      |   8   |     1     |    10    |        Dominant Stance     |       |
+|      3      |      8      |   6   |     2     |    10    |            TBD             |       |
 
-## Results & Data
+**Affiliative**
+| Trust Level | Eye Contact | Speed | Breathing | Interest | Reaction on quick movement | Notes |
+|-------------|-------------|-------|-----------|----------|----------------------------|-------|
+|      1      |      8      |   5   |     4     |    10    |            Head tilt       |       |
+|      2      |      9      |   5   |     4     |    10    |        TBD                 |       |
+|      3      |      9      |   5   |     5     |    10    |       " Dance "              |       |
 
-### Measurements/Observations
+**Avoidant**
+| Trust Level | Eye Contact | Speed | Breathing | Interest | Reaction on quick movement | Notes |
+|-------------|-------------|-------|-----------|----------|----------------------------|-------|
+|      1      |      0      |   9   |     9     |    0     | None, already faced away from you  |       |
+|      2      |      8      |   8   |     7     |    5     |        Cower                 |       |
+|      3      |      8      |   6   |     6     |    8     |        Slight cower           |       |
 
-| Parameter | Expected | Measured | Pass/Fail | Notes |
-|-----------|----------|----------|-----------|-------|
-| | | | | |
+<p align="center">
+  <img src="../files/ur5e/UR5e_identity_profile_posture.jpg" width="500" alt="Posture">
+  <br>
+  <em>Postures for identity profiles and trust </em>
+</p>
 
-### Code Snippets
+## Potential Architecture
 
 ```python
 # Add relevant code here
