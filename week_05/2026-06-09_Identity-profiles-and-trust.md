@@ -8,8 +8,7 @@ contributors: [Charlotte]
 ## Referenced Articles
 
 - Social strategies associated with identity profiles in dairy goats: https://www.sciencedirect.com/science/article/pii/S0168159111001936?via%3Dihub
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC7680732/?utm_source=chatgpt.com
--
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC7680732
 
 ## The Guiding Questions:
 - How does trust in a robot evolve over time?
@@ -46,12 +45,10 @@ contributors: [Charlotte]
 **Aggressive**
 - Becomes cooperative
 - Tolerate handling from the person while remaining difficult with strangers
-- May defer to that person during conflicts
 
 **Avoidant**
 - Doesn't retreat
 - May remain nearby voluntarily
-- "I no longer feel the need to escape"
 
 ## High level application to UR5e
 
