@@ -120,9 +120,11 @@ Trust level of 1 indicates first meeting, trust level of 3 indicates full trust
 
 ## Potential Architecture
 
-```python
-# Add relevant code here
-```
+<p align="center">
+  <img src="../files/ur5e/architecture_draft.jpg" width="500" alt="Posture">
+  <br>
+  <em>Potential Architecture </em>
+</p>
 
 ### Calculations
 

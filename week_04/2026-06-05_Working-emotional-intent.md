@@ -132,9 +132,8 @@ Compare conditions:
 
 | Action Items | Target Date | Status | Notes |
 |-----------|-------------|--------|-------|
-| Action Item 1 | YYYY-MM-DD | ✅ Complete | |
-| Action Item 2 | YYYY-MM-DD | ⚠️ In Progress | |
-| Action Item 3 | YYYY-MM-DD | ⏳ Upcoming | |
+| Emotional Intent | like last week | ✅ Complete | |
+| Decide on Question | 2026-06-05 | ⚠️ In Progress | |
 
 ---
 
