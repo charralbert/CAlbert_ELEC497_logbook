@@ -25,16 +25,21 @@ Animation channels can, at runtime, be loaded and unloaded with robot animations
 - Min / Max - The actuator action with min / max value is selected
 - Multiplication - All actuator actions are multiplied
 
+<p align="center">
+  <img src="../files/literature_images/robot_animation_engine.png" width="500" alt="Transition Filter">
+  <br>
+</p>
+
 ### Transition Filter
 
 <p align="center">
-  <img src="../files/literature_images/transition_filter.png.png" width="500" alt="Transition Filter">
+  <img src="../files/literature_images/transition_filter.png" width="500" alt="Transition Filter">
   <br>
   <em>Figure 1: Transition Filter</em>
 </p>
 
 <p align="center">
-  <img src="../files/literature_images/transition_filter_curve.png.png" width="500" alt="Transition Filter Curve">
+  <img src="../files/literature_images/transition_filter_curve.png" width="500" alt="Transition Filter Curve">
   <br>
   <em>Figure 2: Transition Filter Curve</em>
 </p>
