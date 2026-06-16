@@ -108,8 +108,8 @@ Trust level of 1 indicates first meeting, trust level of 3 indicates full trust
 **Avoidant**
 | Trust Level | Eye Contact | Speed | Breathing | Interest | Reaction on quick movement | Notes |
 |-------------|-------------|-------|-----------|----------|----------------------------|-------|
-|      1      |      0      |   9   |     9     |    0     | None, already faced away from you  |       |
-|      2      |      8      |   8   |     7     |    5     |        Cower                 |       |
+|      1      |      1      |   9   |     9     |    0     | None, already faced away from you  |       |
+|      2      |      5      |   8   |     7     |    5     |        Cower                 |       |
 |      3      |      8      |   6   |     6     |    8     |        Slight cower           |       |
 
 <p align="center">
