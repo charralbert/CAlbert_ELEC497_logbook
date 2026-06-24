@@ -95,6 +95,17 @@ A class which hold parameters which will dictate how the avoidant character beha
 | Y | -4.209 | -0.813 |
 | Z | -1.455 | 1.262 |
 
+**do more trials
+| Parameter | Lowest Value | Highest Value |
+|-----------|----------|----------|
+| hand velocity | 0 | 16 |
+| head velocity | 0 | 6.65 |
+| hand acceleration | 0 | 337 |
+| head acceleration | 0 | 45 |
+| hand distance | 0.81 | 3.25 |
+| head distance | 1.42 | 3.35 |
+| silhouette | 0.06 | 3.27 |
+
 ## Challenges & Next Steps
 
 1. Reorganize current code to prepare for more robust character development
