@@ -38,163 +38,51 @@ contributor: [Charlotte]
 - If looking at my hand, it seems like it can't find it in the lighting, perhaps make this more robust to sensor mishaps. 
 3. Can improvements be made within the two weeks we have left? Or should I focus on the paper
 
-Transition is abrupt
-trust should be adjusted better... like if doing scary things it should get more scared
-mimicry?
-find literature to base mathematical modelling
+**Feedback**
+- Transition is abrupt
+- trust should be adjusted better... like if doing scary things it should get more scared
+- mimicry?
+- find literature to base mathematical modelling
 
 ---
 
 ### 2. Discuss Paper and Questions
 
-**Context:**  
-Brief background or reason for this discussion item.
-
 **Key Points Discussed:**
-- I've never written a technical paper like this - how much time should I estimate it will take? Should I write it out this next week so I could present/ask for feedback at MItHRIL meeting July 27th (give a week to write). 
-- Technical paper - what sections to make? similar to interactive robot gaze? Introduction, Prior Work, Platform and show, architecture, discussion, conclusion.
 
-**Decisions Made:**
-- Decision 1 with rationale
-- Decision 2 with rationale
+**Question**
+I've never written a technical paper like this - how much time should I estimate it will take? Should I write it out this next week so I could present/ask for feedback at MItHRIL meeting July 27th (give a week to write). 
+**Answer**
+Give paper 4-5 days to write.
 
-**Action Items:**
-- [ ] Task description - **Owner:** [Name] - **Due:** YYYY-MM-DD
-- [ ] Another task - **Owner:** [Name] - **Due:** YYYY-MM-DD
+**Question**
+Technical paper - what sections to make? similar to interactive robot gaze? Introduction, Prior Work, Platform and show, architecture, discussion, conclusion.
+**Answer**
+Yes. Also to make a section about what the study would look like if implemented.
 
-smart, specific, measurable, actionable, realistic, time-bound
+**Notes**
+- goals: smart, specific, measurable, actionable, realistic, time-bound
 
 ---
 
 ### 3. AOB
 
 1. MREN 348 Intro to robotics I'd like to take, do you think I'd be ready for this course 
-**Context:**  
 
+**Feedback**
+yeah take it, might even be a fourth year course? #goated
 
-**Key Points Discussed:**
-- 
-- 
-
-**Decisions Made:**
-- 
-
-**Action Items:**
-- [ ] Task - **Owner:** [Name] - **Due:** YYYY-MM-DD
-
----
-
-### 4. [Discussion Topic 3]
-
-**Context:**  
-
-
-**Key Points Discussed:**
-- 
-- 
-
-**Decisions Made:**
-- 
-
-**Action Items:**
-- [ ] Task - **Owner:** [Name] - **Due:** YYYY-MM-DD
-
----
-
-## ✅ Decisions & Outcomes
-
-revamp trust model to match what seeing in literature 
-
-### Technical Decisions
-
-| Decision | Rationale | Impact | Alternatives Considered |
-|----------|-----------|--------|------------------------|
-| Choice made | Why this was chosen | What it affects | Other options |
-| | | | |
-
-### Project Decisions
-
-| Decision | Rationale | Impact |
-|----------|-----------|--------|
-| | | |
-
----
 
 ## 📦 Action Items & Next Steps
 
 ### Immediate Actions (This Week)
 
-- [ ] **[Name 1]** - Task description with specific deliverable - **Due:** YYYY-MM-DD
-- [ ] **[Name 2]** - Another specific task - **Due:** YYYY-MM-DD
-- [ ] **[Name 3]** - Yet another task - **Due:** YYYY-MM-DD
-
-### Upcoming Actions (Next Week+)
-
-- [ ] **[Name]** - Future task - **Due:** YYYY-MM-DD
-- [ ] **[Team]** - Collaborative task - **Due:** YYYY-MM-DD
-
-### Blocked Items
-
-- ⛔ **[Name]** - Task description - **Blocker:** What's preventing progress
-- ⛔ **[Name]** - Another blocked item - **Blocker:** Dependency or issue
+- [ ] **[Charlotte]** - Read Literature to base trust behavior on - **Due:** 2026-07-17
+- [ ] **[Charlotte]** - Reorganize Avoidant class based on literature - **Due:** Determine post next meeting w Pan
+- [ ] **[Charlotte]** - Add no go zone on the camera - **Due:** 2026-07-17 
 
 ---
 
-## 🅿️ Parking Lot
-
-Items that need follow-up but are not immediate priorities:
-
-- Item 1 - Discussed briefly, needs deeper investigation
-- Item 2 - Good idea but out of scope for current sprint
-- Item 3 - Question that requires research before deciding
-
----
-
-## 📊 Project Status
-
-### Overall Progress
-
-- **On Track** / **At Risk** / **Behind Schedule**
-- Brief explanation if not on track
-
-### Milestones
-
-| Milestone | Target Date | Status | Notes |
-|-----------|-------------|--------|-------|
-| Milestone 1 | YYYY-MM-DD | ✅ Complete | |
-| Milestone 2 | YYYY-MM-DD | ⚠️ In Progress | |
-| Milestone 3 | YYYY-MM-DD | ⏳ Upcoming | |
-
----
-
-## 🎯 Next Meeting
-
-**Date:** YYYY-MM-DD  
-**Time:** HH:MM  
-**Location:** [TBD]  
-
-**Proposed Agenda:**
-1. Review action items from this meeting
-2. Topic 1
-3. Topic 2
-
----
-
-## 📎 Attachments & References
-
-- [Link to design doc](URL)
-- [Link to GitHub issue](URL)
-- [Reference material](URL)
-- Images or diagrams: ![Description](../../images/week-XX/filename.jpg)
-
----
-
-## 💬 Additional Notes
-
-Any other observations, concerns, or information that doesn't fit into the above categories.
-
----
-
-**Minutes prepared by:** [Note Taker Name]  
-**Date submitted:** YYYY-MM-DD  
-**Reviewed by:** [Facilitator Name]
+**Minutes prepared by:** [Charlotte]  
+**Date submitted:** 2026-07-16  
+**Reviewed by:** [Matthew Pan]
