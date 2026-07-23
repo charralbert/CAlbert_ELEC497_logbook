@@ -1,5 +1,5 @@
 # The Power of a Positive Human-Animal Relationship for Animal Welfare
-link: https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2020.590867/full?utm_source=chatgpt.com
+link: https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2020.590867
 
 ## Abstract
 - paying attention to th animal's behavioral response to humans and providing choice and control to the animal in terms of when and how to interact with humans. 
