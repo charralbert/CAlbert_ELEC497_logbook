@@ -101,29 +101,121 @@ Find instruments or tools for companionship, trust
 
 update question accordingly.. does trust create a meaningful relationship with the robot. 
 
-### Session 1: [Activity Name] (HH:MM - HH:MM)
+## Measurements to Consider
 
-**Members Present**: [Name1, Name2, Name3]
+### Lexington Attachment to Pets Scale: Brief-LAPS
+**Companionship in Pets**
+link: https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2025.1619187/full#A2
 
-**Description**: 
-Describe what you worked on in detail...
+Consists of 23 items addressing owners' levels of attachment to their pets. A total attachment score, and 3 sub-scores on the sub-dimensions of General Attachment, People Substitution, Animal Rights/Welfare, can be calculated. 
 
-**Materials/Tools Used**:
--
--
+**Seven items used in the Brief-LAPS**
+1. My pet knows when I am feeling bad
+2. My pet and I have a very close relationship
+3. I play with my pet quite often
+4. I consider my pet to be a friend
+5. My pet means more to me than any of my friends
+6. I love my pet because it never judges me
+7. Pets deserve as much respect as humans do
 
-**Process/Steps**:
-1.
-2.
-3.
+**Response options**
+(0) Strongly disagree
+(1) Somewhat disagree
+(2) Somewhat agree
+(3) Strongly agree
 
-**Documentation**:
-<!-- Add images, diagrams, screenshots from the images/ folder -->
-<!-- Store your images in: images/week-XX/ directory -->
+**Computation**
+Brief-LAPS = 1+2+....7
 
-*Figure 1: Brief description of what the image shows and its relevance to your work*
+### Multi-Dimensional Measure of trust (MDMT)
+**Trust**
+link: https://research.clps.brown.edu/SocCogSci/Measures/MDMT_v1.pdf
 
-## Results & Data
+Intuitive and comprehensive measure of trust, created to address need to valid measurement tools in the domain of human-robot trust but can also be used in human-human trust situations. Consists of 16 items that assess four differentiable dimensions: reliable, capable, ethical, sincere. These four dimensions are organized into two broader factors: Capacity trust (reliable and capable) and Moral trust (Ethical, Sincere)
+
+**Question**
+Rate from 0 to 7 with an additional "does not fit" column:
+Reliable, Sincere, Capable, Ethical, Predictable, Genuine, Skilled, Respectable, Someone you can count on, Candid, Competent, Principled, Consistent, Authentic, Meticulous, Has Integrity
+
+### Godspeed Questionaire Series
+**User Perception**
+link: https://www.bartneck.de/publications/2023/godspeed/bartneckGodspeedChapter2023.pdf
+
+Used to measure users' perception of robots: consists of five concepts: Anthropomorphism, Animacy, Likeability, Perceived Intelligence, and Perceived Safety. Rated on 1-5 scale with antonyms on either side.
+
+**Anthropomorphism**
+1. Fake to Natural
+2. Machinelike to Humanlike
+3. Unconscious to Conscious
+4. Artificial to Lifelike
+5. Moving rigidly to moving elegantly
+
+**Animacy**
+1. Dead to Alive
+2. Stagnant to Lively
+3. Mechanical to Organic
+4. Artificial to Lifelike
+5. Intert to Interactive
+6. Apathetic to Reponsive
+
+**Likeability**
+1. Dislike to Like
+2. Unfriendly to Friendly
+3. Unkind to Kind
+4. Unpleasant to Pleasant
+5. Awful to Nice
+
+**Perceived Intelligence**
+1. Incompetent to Competent
+2. Ignorant to Knowledgeable
+3. Irresponsible to Responsible
+4. Unintelligent to Intelligent
+5. Foolish to Sensible
+
+**Perceived Safety**
+1. Anxious to Relaxed
+2. Calm to Agitated
+3. Still to Surprised
+
+### Measure of Mind Perception in 3 to 5 Dimensions (MMP35)
+link: https://research.clps.brown.edu/SocCogSci/Measures/MMP35.PDF
+
+Measure how much people attribute mind to different entities
+
+**Questions**
+Rated on scale 0-7 of not at all capable to completely capable of:
+
+- Feeling happy
+- Feeling tired
+- Praising moral actions
+- Understanding others' minds
+- Moving on their own
+
+- Feeling pleasure
+- Experiencing fear
+- Upholding moral values
+- Planning for the future
+- Communicating verbally
+
+- Loving specific people
+- Feeling stress
+- Telling right from wrong
+- Inferring what a person is thinking
+- Learning from instruction
+
+- Experiencing gratitude
+- Feeling pain
+- Disapproving of immoral actions
+- Setting goals
+- Seeing and hearing the world around them
+
+## Meeting with Matt
+
+add jitter to all body.... make so shake computes all the time during trust level 0... gradual slow 
+
+weird in the sideways look
+
+change to kinematics to mostly change joint 5, then minimal adjustments on joint 4
 
 ### Measurements/Observations
 
